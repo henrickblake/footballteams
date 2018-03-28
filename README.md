@@ -27,7 +27,7 @@ $ mvn clean install
 builds and packages into a fat jar
 ```
 
-### Build and package
+### Start the application
 ```sh
 From the project root/target
 $ java -jar footballteams-0.0.1-SNAPSHOT.jar
