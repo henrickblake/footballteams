@@ -1,0 +1,337 @@
+2018-03-28 13:39:28.233  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 13:39:28.233 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 13:39:28.234  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 13:39:29.255  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 13:39:29.413  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.216 seconds (JVM running for 613.845)
+2018-03-28 13:39:29.416  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 13:39:37.624  INFO 13588 --- [http-nio-8080-exec-2] c.h.f.FootballteamsApplication           : Creating team: Team [id=null, name=West Ham, city=London, owner=Adrian Smith, stadiumCapacity=25000, competition=FA Cup, numberOfPlayers=45, dateOfCreation=null]
+2018-03-28 13:39:37.637 DEBUG 13588 --- [http-nio-8080-exec-2] c.h.f.FootballteamsApplication           : Created : Team [id=1, name=West Ham, city=London, owner=Adrian Smith, stadiumCapacity=25000, competition=FA Cup, numberOfPlayers=45, dateOfCreation=Wed Mar 28 13:39:37 BST 2018]
+2018-03-28 13:39:37.637 DEBUG 13588 --- [http-nio-8080-exec-2] c.h.f.FootballteamsApplication           : Team created: Team [id=1, name=West Ham, city=London, owner=Adrian Smith, stadiumCapacity=25000, competition=FA Cup, numberOfPlayers=45, dateOfCreation=Wed Mar 28 13:39:37 BST 2018]
+2018-03-28 13:41:41.347  INFO 13588 --- [http-nio-8080-exec-5] c.h.f.FootballteamsApplication           : Creating team: Team [id=null, name=West Ham, city=London, owner=Adrian Smith, stadiumCapacity=25000, competition=FA Cup, numberOfPlayers=45, dateOfCreation=null]
+2018-03-28 13:41:41.358 ERROR 13588 --- [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "UK_G2L9QQSOEUYNT4R5OFDT1X2TD_INDEX_2 ON PUBLIC.TEAM(NAME) VALUES ('West Ham', 1)"; SQL statement:
+insert into team (id, city, competition, date_of_creation, name, number_of_players, owner, stadium_capacity) values (null, ?, ?, ?, ?, ?, ?, ?) [23505-196]
+2018-03-28 13:41:41.377  INFO 13588 --- [http-nio-8080-exec-5] c.h.f.FootballteamsApplication           : Team already exists
+2018-03-28 14:22:06.697  WARN 13588 --- [Thread-27] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:22:07.020  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:22:07.020 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:22:07.021  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:22:08.211  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:22:08.391  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.41 seconds (JVM running for 3172.822)
+2018-03-28 14:22:08.393  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:23:13.268  WARN 13588 --- [Thread-33] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:23:13.483  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:23:13.483 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:23:13.484  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:23:14.523  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:23:14.691  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.239 seconds (JVM running for 3239.122)
+2018-03-28 14:23:14.694  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:24:02.891  WARN 13588 --- [Thread-39] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:24:03.157  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:24:03.157 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:24:03.158  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:24:04.203  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:24:04.367  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.246 seconds (JVM running for 3288.798)
+2018-03-28 14:24:04.370  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:24:13.784  WARN 13588 --- [Thread-45] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:24:14.005  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:24:14.006 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:24:14.006  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:24:14.982  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:24:15.147  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.179 seconds (JVM running for 3299.578)
+2018-03-28 14:24:15.150  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:25:06.938  WARN 13588 --- [Thread-51] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:25:07.167  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:25:07.168 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:25:07.168  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:25:08.214  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:25:08.377  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.24 seconds (JVM running for 3352.808)
+2018-03-28 14:25:08.379  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:25:44.046  WARN 13588 --- [Thread-57] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:25:44.279  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:25:44.279 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:25:44.279  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:25:45.300  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:25:45.464  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.22 seconds (JVM running for 3389.895)
+2018-03-28 14:25:45.466  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:25:49.240  WARN 13588 --- [Thread-63] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:25:49.460  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:25:49.461 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:25:49.461  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:25:50.489  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:25:50.656  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.231 seconds (JVM running for 3395.087)
+2018-03-28 14:25:50.658  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:25:59.058  WARN 13588 --- [Thread-69] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:25:59.272  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:25:59.272 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:25:59.272  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:26:00.253  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:26:00.414  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.174 seconds (JVM running for 3404.845)
+2018-03-28 14:26:00.416  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:26:05.193  WARN 13588 --- [Thread-75] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:26:05.418  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:26:05.419 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:26:05.419  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:26:06.359  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:26:06.520  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.138 seconds (JVM running for 3410.952)
+2018-03-28 14:26:06.523  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:26:48.226  WARN 13588 --- [Thread-81] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:26:48.443  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:26:48.443 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:26:48.444  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:26:49.457  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:26:49.622  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.21 seconds (JVM running for 3454.053)
+2018-03-28 14:26:49.625  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:28:30.834  WARN 13588 --- [Thread-87] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:28:31.061  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:28:31.062 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:28:31.062  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:28:32.095  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:28:32.257  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.225 seconds (JVM running for 3556.688)
+2018-03-28 14:28:32.259  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:28:56.205  WARN 13588 --- [Thread-93] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:28:56.424  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:28:56.425 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:28:56.425  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:28:57.375  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:28:57.543  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.152 seconds (JVM running for 3581.974)
+2018-03-28 14:28:57.545  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:29:57.827  WARN 13588 --- [Thread-99] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:29:58.057  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:29:58.057 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:29:58.057  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:29:59.029  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:29:59.192  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.167 seconds (JVM running for 3643.623)
+2018-03-28 14:29:59.194  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:32:34.871  WARN 13588 --- [Thread-105] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:32:35.044  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:32:35.044 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:32:35.045  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:32:36.075  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:32:36.239  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.224 seconds (JVM running for 3800.669)
+2018-03-28 14:32:36.241  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:33:05.298  INFO 13588 --- [http-nio-8080-exec-2] c.h.f.FootballteamsApplication           : Creating team: Team [id=null, name=West Ham, city=London, owner=Adrian Smith, stadiumCapacity=25000, competition=FA Cup, numberOfPlayers=45, dateOfCreation=null]
+2018-03-28 14:33:05.312 DEBUG 13588 --- [http-nio-8080-exec-2] c.h.f.FootballteamsApplication           : Created : Team [id=1, name=West Ham, city=London, owner=Adrian Smith, stadiumCapacity=25000, competition=FA Cup, numberOfPlayers=45, dateOfCreation=Wed Mar 28 14:33:05 BST 2018]
+2018-03-28 14:33:33.488  WARN 13588 --- [Thread-111] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:33:33.714  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:33:33.715 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:33:33.715  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:33:34.743  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:33:34.913  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.232 seconds (JVM running for 3859.344)
+2018-03-28 14:33:34.916  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:33:38.649  INFO 13588 --- [http-nio-8080-exec-2] c.h.f.FootballteamsApplication           : Creating team: Team [id=null, name=West Ham, city=London, owner=Adrian Smith, stadiumCapacity=25000, competition=FA Cup, numberOfPlayers=45, dateOfCreation=null]
+2018-03-28 14:33:38.665 DEBUG 13588 --- [http-nio-8080-exec-2] c.h.f.FootballteamsApplication           : Created : Team [id=1, name=West Ham, city=London, owner=Adrian Smith, stadiumCapacity=25000, competition=FA Cup, numberOfPlayers=45, dateOfCreation=Wed Mar 28 14:33:38 BST 2018]
+2018-03-28 14:33:52.283  INFO 13588 --- [http-nio-8080-exec-3] c.h.f.FootballteamsApplication           : Creating team: Team [id=null, name=West Ham, city=London, owner=Adrian Smith, stadiumCapacity=25000, competition=FA Cup, numberOfPlayers=45, dateOfCreation=null]
+2018-03-28 14:33:52.310  INFO 13588 --- [http-nio-8080-exec-3] c.h.f.FootballteamsApplication           : Team already exists found: West Ham
+2018-03-28 14:34:17.635  WARN 13588 --- [Thread-117] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:34:17.864  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:34:17.865 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:34:17.865  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:34:18.970  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:34:19.152  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.325 seconds (JVM running for 3903.583)
+2018-03-28 14:34:19.155  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:34:23.673  INFO 13588 --- [http-nio-8080-exec-2] c.h.f.FootballteamsApplication           : Creating team: Team [id=null, name=West Ham, city=London, owner=Adrian Smith, stadiumCapacity=25000, competition=FA Cup, numberOfPlayers=45, dateOfCreation=null]
+2018-03-28 14:34:23.686 DEBUG 13588 --- [http-nio-8080-exec-2] c.h.f.FootballteamsApplication           : Created : Team [id=1, name=West Ham, city=London, owner=Adrian Smith, stadiumCapacity=25000, competition=FA Cup, numberOfPlayers=45, dateOfCreation=Wed Mar 28 14:34:23 BST 2018]
+2018-03-28 14:34:25.403  INFO 13588 --- [http-nio-8080-exec-3] c.h.f.FootballteamsApplication           : Creating team: Team [id=null, name=West Ham, city=London, owner=Adrian Smith, stadiumCapacity=25000, competition=FA Cup, numberOfPlayers=45, dateOfCreation=null]
+2018-03-28 14:34:25.404  INFO 13588 --- [http-nio-8080-exec-3] c.h.f.FootballteamsApplication           : Team already exists: West Ham
+2018-03-28 14:34:51.197 DEBUG 13588 --- [http-nio-8080-exec-4] c.h.f.FootballteamsApplication           : Searching for Luton Town
+2018-03-28 14:34:51.198  INFO 13588 --- [http-nio-8080-exec-4] c.h.f.FootballteamsApplication           : Team not found: Luton Town
+2018-03-28 14:43:22.171  WARN 13588 --- [Thread-123] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:43:22.410  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:43:22.411 DEBUG 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-03-28 14:43:22.411  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:43:23.534  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:43:23.732  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.36 seconds (JVM running for 4448.163)
+2018-03-28 14:43:23.734  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:43:29.827 DEBUG 13588 --- [http-nio-8080-exec-2] c.h.f.FootballteamsApplication           : Searching for Luton Town
+2018-03-28 14:43:29.834  INFO 13588 --- [http-nio-8080-exec-2] c.h.f.FootballteamsApplication           : Team not found: Luton Town
+2018-03-28 14:43:34.759  INFO 13588 --- [http-nio-8080-exec-3] c.h.f.FootballteamsApplication           : Creating team: West Ham
+2018-03-28 14:43:34.770 DEBUG 13588 --- [http-nio-8080-exec-3] c.h.f.FootballteamsApplication           : Created : Team [id=1, name=West Ham, city=London, owner=Adrian Smith, stadiumCapacity=25000, competition=FA Cup, numberOfPlayers=45, dateOfCreation=Wed Mar 28 14:43:34 BST 2018]
+2018-03-28 14:44:24.602  WARN 13588 --- [Thread-129] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:44:24.838  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:44:24.838  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:44:25.903  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:44:26.071  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.268 seconds (JVM running for 4510.502)
+2018-03-28 14:44:26.073  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:44:30.117  INFO 13588 --- [http-nio-8080-exec-2] c.h.f.FootballteamsApplication           : Creating team: West Ham
+2018-03-28 14:44:37.016  INFO 13588 --- [http-nio-8080-exec-3] c.h.f.FootballteamsApplication           : Creating team: West Ham
+2018-03-28 14:44:37.017  INFO 13588 --- [http-nio-8080-exec-3] c.h.f.FootballteamsApplication           : Team already exists: West Ham
+2018-03-28 14:46:31.878  INFO 13588 --- [http-nio-8080-exec-6] c.h.f.FootballteamsApplication           : Team not found: Luton Town
+2018-03-28 14:47:26.001  WARN 13588 --- [Thread-135] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:47:26.226  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:47:26.226  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:47:27.254  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:47:27.423  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.23 seconds (JVM running for 4691.854)
+2018-03-28 14:47:27.425  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:47:36.949  INFO 13588 --- [http-nio-8080-exec-2] c.h.f.FootballteamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 14:48:01.086  INFO 13588 --- [http-nio-8080-exec-3] c.h.f.FootballteamsApplication           : Returning details of all teams
+2018-03-28 14:48:05.644  INFO 13588 --- [http-nio-8080-exec-4] c.h.f.FootballteamsApplication           : Creating team: Arsenal
+2018-03-28 14:48:07.541  INFO 13588 --- [http-nio-8080-exec-5] c.h.f.FootballteamsApplication           : Creating team: West Ham
+2018-03-28 14:48:18.117  INFO 13588 --- [http-nio-8080-exec-6] c.h.f.FootballteamsApplication           : Searching for Luton Town
+2018-03-28 14:48:18.118  INFO 13588 --- [http-nio-8080-exec-6] c.h.f.FootballteamsApplication           : Team not found: Luton Town
+2018-03-28 14:49:44.905  INFO 13588 --- [http-nio-8080-exec-9] c.h.f.FootballteamsApplication           : Searching for Arsenal
+2018-03-28 14:49:44.907  INFO 13588 --- [http-nio-8080-exec-9] c.h.f.FootballteamsApplication           : Searching for Arsenal
+2018-03-28 14:50:47.542  WARN 13588 --- [Thread-141] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:50:47.774  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:50:47.774  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:50:48.829  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:50:49.005  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.264 seconds (JVM running for 4893.436)
+2018-03-28 14:50:49.007  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:52:32.684  WARN 13588 --- [Thread-147] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:52:33.000  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 13588 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:52:33.000  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:52:34.072  WARN 13588 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:52:34.255  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 1.299 seconds (JVM running for 4998.687)
+2018-03-28 14:52:34.258  INFO 13588 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:52:44.012  WARN 13588 --- [RMI TCP Connection(93)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 14:59:36.844  INFO 14332 --- [restartedMain] c.h.f.FootballteamsApplication           : Starting FootballteamsApplication on Office-PC with PID 14332 (D:\Dev\Workspaces\footballteams\footballteams\target\classes started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 14:59:36.845  INFO 14332 --- [restartedMain] c.h.f.FootballteamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 14:59:40.604  WARN 14332 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 14:59:41.121  INFO 14332 --- [restartedMain] c.h.f.FootballteamsApplication           : Started FootballteamsApplication in 4.621 seconds (JVM running for 5.563)
+2018-03-28 14:59:41.125  INFO 14332 --- [restartedMain] c.h.f.FootballteamsApplication           : Application started
+2018-03-28 14:59:49.398  WARN 14332 --- [RMI TCP Connection(6)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 15:00:49.670  INFO 20808 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Office-PC with PID 20808 (started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 15:00:49.673  INFO 20808 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 15:00:51.987  INFO 20808 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 2.755 seconds (JVM running for 4.119)
+2018-03-28 15:00:52.509  INFO 20808 --- [main] c.h.f.FootballteamsApplication           : Searching for Crewe Alexandra
+2018-03-28 15:00:52.510  INFO 20808 --- [main] c.h.f.FootballteamsApplication           : Returning details of all teams
+2018-03-28 15:00:52.511  INFO 20808 --- [main] c.h.f.FootballteamsApplication           : Searching for Crewe Alexandra
+2018-03-28 15:00:52.511  INFO 20808 --- [main] c.h.f.FootballteamsApplication           : Team not found: Crewe Alexandra
+2018-03-28 15:00:52.513  INFO 20808 --- [main] c.h.f.FootballteamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 15:02:38.301  INFO 14144 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Office-PC with PID 14144 (started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 15:02:38.303  INFO 14144 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 15:02:40.482  INFO 14144 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 2.608 seconds (JVM running for 3.892)
+2018-03-28 15:02:41.035  INFO 14144 --- [main] c.h.f.FootballteamsApplication           : Searching for Crewe Alexandra
+2018-03-28 15:02:41.036  INFO 14144 --- [main] c.h.f.FootballteamsApplication           : Returning details of all teams
+2018-03-28 15:02:41.038  INFO 14144 --- [main] c.h.f.FootballteamsApplication           : Searching for Crewe Alexandra
+2018-03-28 15:02:41.038  INFO 14144 --- [main] c.h.f.FootballteamsApplication           : Team not found: Crewe Alexandra
+2018-03-28 15:02:41.046  INFO 14144 --- [main] c.h.f.FootballteamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 15:03:13.050  INFO 20932 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Office-PC with PID 20932 (started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 15:03:13.055  INFO 20932 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 15:03:15.162  INFO 20932 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 2.541 seconds (JVM running for 3.838)
+2018-03-28 15:03:15.703  INFO 20932 --- [main] c.h.f.FootballteamsApplication           : Searching for Crewe Alexandra
+2018-03-28 15:03:15.704  INFO 20932 --- [main] c.h.f.FootballteamsApplication           : Returning details of all teams
+2018-03-28 15:03:15.705  INFO 20932 --- [main] c.h.f.FootballteamsApplication           : Searching for Crewe Alexandra
+2018-03-28 15:03:15.705  INFO 20932 --- [main] c.h.f.FootballteamsApplication           : Team not found: Crewe Alexandra
+2018-03-28 15:03:15.712  INFO 20932 --- [main] c.h.f.FootballteamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 15:04:21.683  INFO 12636 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Office-PC with PID 12636 (started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 15:04:21.685  INFO 12636 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 15:04:23.410  INFO 12636 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 2.077 seconds (JVM running for 3.42)
+2018-03-28 15:05:06.363  INFO 7572 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Office-PC with PID 7572 (started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 15:05:06.366  INFO 7572 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 15:05:08.587  INFO 7572 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 2.626 seconds (JVM running for 3.932)
+2018-03-28 15:05:09.150  INFO 7572 --- [main] c.h.f.FootballteamsApplication           : Searching for Crewe Alexandra
+2018-03-28 15:05:09.151  INFO 7572 --- [main] c.h.f.FootballteamsApplication           : Returning details of all teams
+2018-03-28 15:05:09.152  INFO 7572 --- [main] c.h.f.FootballteamsApplication           : Searching for Crewe Alexandra
+2018-03-28 15:05:09.152  INFO 7572 --- [main] c.h.f.FootballteamsApplication           : Team not found: Crewe Alexandra
+2018-03-28 15:05:09.156  INFO 7572 --- [main] c.h.f.FootballteamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 15:19:51.857  INFO 20796 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Office-PC with PID 20796 (started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 15:19:51.859  INFO 20796 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 15:19:53.584  INFO 20796 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 2.078 seconds (JVM running for 3.404)
+2018-03-28 15:32:46.278  INFO 7160 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Office-PC with PID 7160 (started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 15:32:46.280  INFO 7160 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 15:32:48.327  INFO 7160 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 2.403 seconds (JVM running for 3.799)
+2018-03-28 15:36:16.776  INFO 14544 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Office-PC with PID 14544 (started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 15:36:16.778  INFO 14544 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 15:36:18.493  INFO 14544 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 2.063 seconds (JVM running for 3.322)
+2018-03-28 15:37:38.203  INFO 18644 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Office-PC with PID 18644 (started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 15:37:38.209  INFO 18644 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 15:37:40.504  INFO 18644 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 2.751 seconds (JVM running for 4.057)
+2018-03-28 15:37:41.019  INFO 18644 --- [main] c.h.f.FootballteamsApplication           : Searching for Crewe Alexandra
+2018-03-28 15:37:41.020  INFO 18644 --- [main] c.h.f.FootballteamsApplication           : Returning details of all teams
+2018-03-28 15:37:41.027  INFO 18644 --- [main] c.h.f.FootballteamsApplication           : Searching for Luton Town
+2018-03-28 15:37:41.028  INFO 18644 --- [main] c.h.f.FootballteamsApplication           : Team not found: Luton Town
+2018-03-28 15:37:41.029  INFO 18644 --- [main] c.h.f.FootballteamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 15:37:41.030  INFO 18644 --- [main] c.h.f.FootballteamsApplication           : Creating team: null
+2018-03-28 15:46:09.584  INFO 2620 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Office-PC with PID 2620 (started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 15:46:09.595  INFO 2620 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 15:46:11.844  INFO 2620 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 2.715 seconds (JVM running for 3.986)
+2018-03-28 15:46:12.456  INFO 2620 --- [main] c.h.f.FootballteamsApplication           : Searching for Crewe Alexandra
+2018-03-28 15:46:12.457  INFO 2620 --- [main] c.h.f.FootballteamsApplication           : Returning details of all teams
+2018-03-28 15:46:12.460  INFO 2620 --- [main] c.h.f.FootballteamsApplication           : Searching for Luton Town
+2018-03-28 15:46:12.460  INFO 2620 --- [main] c.h.f.FootballteamsApplication           : Team not found: Luton Town
+2018-03-28 15:46:12.460  INFO 2620 --- [main] c.h.f.FootballteamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 15:46:12.461  INFO 2620 --- [main] c.h.f.FootballteamsApplication           : Creating team: null
+2018-03-28 15:50:55.523  INFO 8344 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Office-PC with PID 8344 (started by Henrick in D:\Dev\Workspaces\footballteams\footballteams)
+2018-03-28 15:50:55.527  INFO 8344 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 15:50:57.867  INFO 8344 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 2.798 seconds (JVM running for 4.101)
+2018-03-28 15:50:58.367  INFO 8344 --- [main] c.h.f.FootballTeamsApplication           : Searching for Crewe Alexandra
+2018-03-28 15:50:58.368  INFO 8344 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams
+2018-03-28 15:50:58.369  INFO 8344 --- [main] c.h.f.FootballTeamsApplication           : Searching for Luton Town
+2018-03-28 15:50:58.369  INFO 8344 --- [main] c.h.f.FootballTeamsApplication           : Team not found: Luton Town
+2018-03-28 15:50:58.370  INFO 8344 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 15:50:58.372  INFO 8344 --- [main] c.h.f.FootballTeamsApplication           : Creating team: null
+2018-03-28 17:27:28.817  INFO 4444 --- [restartedMain] c.h.f.FootballTeamsApplication           : Starting FootballTeamsApplication on Henrick-xps with PID 4444 (C:\Dev\workspaces\footballteams\footballteams\target\classes started by hblak in C:\Dev\workspaces\footballteams\footballteams)
+2018-03-28 17:27:28.819  INFO 4444 --- [restartedMain] c.h.f.FootballTeamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 17:27:35.040  WARN 4444 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 17:27:39.384  INFO 4444 --- [restartedMain] c.h.f.FootballTeamsApplication           : Started FootballTeamsApplication in 11.252 seconds (JVM running for 12.39)
+2018-03-28 17:27:39.390  INFO 4444 --- [restartedMain] c.h.f.FootballTeamsApplication           : Application started
+2018-03-28 17:27:48.307  WARN 4444 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 17:30:08.154  INFO 30116 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Henrick-xps with PID 30116 (started by hblak in C:\Dev\workspaces\footballteams\footballteams)
+2018-03-28 17:30:08.158  INFO 30116 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 17:30:11.451  INFO 30116 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 3.841 seconds (JVM running for 6.248)
+2018-03-28 17:30:12.100  INFO 30116 --- [main] c.h.f.FootballTeamsApplication           : Searching for Crewe Alexandra
+2018-03-28 17:30:12.101  INFO 30116 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams
+2018-03-28 17:30:12.102  INFO 30116 --- [main] c.h.f.FootballTeamsApplication           : Searching for Luton Town
+2018-03-28 17:30:12.102  INFO 30116 --- [main] c.h.f.FootballTeamsApplication           : Team not found: Luton Town
+2018-03-28 17:30:12.102  INFO 30116 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 17:30:12.103  INFO 30116 --- [main] c.h.f.FootballTeamsApplication           : Creating team: null
+2018-03-28 17:30:31.385  INFO 33904 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Henrick-xps with PID 33904 (started by hblak in C:\Dev\workspaces\footballteams\footballteams)
+2018-03-28 17:30:31.388  INFO 33904 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 17:30:34.702  INFO 33904 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 3.873 seconds (JVM running for 5.469)
+2018-03-28 17:30:35.374  INFO 33904 --- [main] c.h.f.FootballTeamsApplication           : Searching for Crewe Alexandra
+2018-03-28 17:30:35.376  INFO 33904 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams
+2018-03-28 17:30:35.377  INFO 33904 --- [main] c.h.f.FootballTeamsApplication           : Searching for Luton Town
+2018-03-28 17:30:35.377  INFO 33904 --- [main] c.h.f.FootballTeamsApplication           : Team not found: Luton Town
+2018-03-28 17:30:35.378  INFO 33904 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 17:30:35.380  INFO 33904 --- [main] c.h.f.FootballTeamsApplication           : Creating team: null
+2018-03-28 17:32:55.743  INFO 15972 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Henrick-xps with PID 15972 (started by hblak in C:\Dev\workspaces\footballteams\footballteams)
+2018-03-28 17:32:55.747  INFO 15972 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 17:32:58.822  INFO 15972 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 3.772 seconds (JVM running for 5.379)
+2018-03-28 17:32:59.558  INFO 15972 --- [main] c.h.f.FootballTeamsApplication           : Searching for Crewe Alexandra
+2018-03-28 17:32:59.559  INFO 15972 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams
+2018-03-28 17:32:59.561  INFO 15972 --- [main] c.h.f.FootballTeamsApplication           : Searching for Luton Town
+2018-03-28 17:32:59.561  INFO 15972 --- [main] c.h.f.FootballTeamsApplication           : Team not found: Luton Town
+2018-03-28 17:32:59.562  INFO 15972 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 17:32:59.563  INFO 15972 --- [main] c.h.f.FootballTeamsApplication           : Creating team: null
+2018-03-28 17:36:27.058  INFO 26916 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Henrick-xps with PID 26916 (started by hblak in C:\Dev\workspaces\footballteams\footballteams)
+2018-03-28 17:36:27.061  INFO 26916 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 17:36:30.289  INFO 26916 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 3.781 seconds (JVM running for 5.366)
+2018-03-28 17:36:30.949  INFO 26916 --- [main] c.h.f.FootballTeamsApplication           : Searching for Crewe Alexandra
+2018-03-28 17:36:30.950  INFO 26916 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams
+2018-03-28 17:36:30.951  INFO 26916 --- [main] c.h.f.FootballTeamsApplication           : Searching for Luton Town
+2018-03-28 17:36:30.951  INFO 26916 --- [main] c.h.f.FootballTeamsApplication           : Team not found: Luton Town
+2018-03-28 17:36:30.951  INFO 26916 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 17:36:30.953  INFO 26916 --- [main] c.h.f.FootballTeamsApplication           : Creating team: null
+2018-03-28 17:45:05.055  INFO 23244 --- [restartedMain] c.h.f.FootballTeamsApplication           : Starting FootballTeamsApplication on Henrick-xps with PID 23244 (C:\Dev\workspaces\footballteams\footballteams\target\classes started by hblak in C:\Dev\workspaces\footballteams\footballteams)
+2018-03-28 17:45:05.056  INFO 23244 --- [restartedMain] c.h.f.FootballTeamsApplication           : No active profile set, falling back to default profiles: default
+2018-03-28 17:45:11.353  WARN 23244 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-28 17:45:12.166  INFO 23244 --- [restartedMain] c.h.f.FootballTeamsApplication           : Started FootballTeamsApplication in 7.652 seconds (JVM running for 8.735)
+2018-03-28 17:45:12.171  INFO 23244 --- [restartedMain] c.h.f.FootballTeamsApplication           : Application started
+2018-03-28 17:46:22.772  WARN 23244 --- [RMI TCP Connection(10)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-196]
+2018-03-28 17:46:42.922  INFO 30992 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Henrick-xps with PID 30992 (started by hblak in C:\Dev\workspaces\footballteams\footballteams)
+2018-03-28 17:46:42.926  INFO 30992 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 17:46:46.082  INFO 30992 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 3.797 seconds (JVM running for 5.381)
+2018-03-28 17:46:46.769  INFO 30992 --- [main] c.h.f.FootballTeamsApplication           : Searching for Crewe Alexandra
+2018-03-28 17:46:46.770  INFO 30992 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams
+2018-03-28 17:46:46.771  INFO 30992 --- [main] c.h.f.FootballTeamsApplication           : Searching for Luton Town
+2018-03-28 17:46:46.771  INFO 30992 --- [main] c.h.f.FootballTeamsApplication           : Team not found: Luton Town
+2018-03-28 17:46:46.772  INFO 30992 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 17:46:46.773  INFO 30992 --- [main] c.h.f.FootballTeamsApplication           : Creating team: null
+2018-03-28 17:47:04.745  INFO 31624 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Henrick-xps with PID 31624 (started by hblak in C:\Dev\workspaces\footballteams\footballteams)
+2018-03-28 17:47:04.747  INFO 31624 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 17:47:07.948  INFO 31624 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 3.761 seconds (JVM running for 5.781)
+2018-03-28 17:47:08.625  INFO 31624 --- [main] c.h.f.FootballTeamsApplication           : Searching for Crewe Alexandra
+2018-03-28 17:47:08.627  INFO 31624 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams
+2018-03-28 17:47:08.629  INFO 31624 --- [main] c.h.f.FootballTeamsApplication           : Searching for Luton Town
+2018-03-28 17:47:08.629  INFO 31624 --- [main] c.h.f.FootballTeamsApplication           : Team not found: Luton Town
+2018-03-28 17:47:08.630  INFO 31624 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 17:47:08.632  INFO 31624 --- [main] c.h.f.FootballTeamsApplication           : Creating team: null
+2018-03-28 18:23:59.858  INFO 15768 --- [main] c.h.f.controller.TeamControllerTest      : Starting TeamControllerTest on Henrick-xps with PID 15768 (started by hblak in C:\Dev\workspaces\footballteams\footballteams)
+2018-03-28 18:23:59.861  INFO 15768 --- [main] c.h.f.controller.TeamControllerTest      : No active profile set, falling back to default profiles: default
+2018-03-28 18:24:02.976  INFO 15768 --- [main] c.h.f.controller.TeamControllerTest      : Started TeamControllerTest in 3.673 seconds (JVM running for 5.319)
+2018-03-28 18:24:03.799  INFO 15768 --- [main] c.h.f.FootballTeamsApplication           : Searching for Crewe Alexandra
+2018-03-28 18:24:03.800  INFO 15768 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams
+2018-03-28 18:24:03.801  INFO 15768 --- [main] c.h.f.FootballTeamsApplication           : Searching for Luton Town
+2018-03-28 18:24:03.802  INFO 15768 --- [main] c.h.f.FootballTeamsApplication           : Team not found: Luton Town
+2018-03-28 18:24:03.802  INFO 15768 --- [main] c.h.f.FootballTeamsApplication           : Returning details of all teams ordered by stadium capacity
+2018-03-28 18:24:03.804  INFO 15768 --- [main] c.h.f.FootballTeamsApplication           : Creating team: null
